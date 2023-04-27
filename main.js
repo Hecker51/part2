@@ -1,12 +1,12 @@
 function preload()
 {
-  cria = loadImage('https://i.postimg.cc/Gmb8VK7W/crid.jpg')
+  cria = loadImage('https://i.postimg.cc/vTLQXLPM/kisspng-brixton-cowboy-hat-clothing-accessories-cap-cowboy-hat-5abf224c501f70-0700841015224755963282.png')
 }
 function draw()
 {
     image(video, 0, 0, 300, 300)
     
-    image(cria, noseX - 50, noseY - 50, 100, 100)
+    image(cria, noseX - 50, noseY - 100, 100, 100)
 }
 function setup()
 {
@@ -46,5 +46,5 @@ if (results.length > 0) {
 
 
 function a123(){
-
+  save("foto_bem_feia.png")
 }
